@@ -1,0 +1,42 @@
+C:\Users\javie\source\repos\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.dll
+C:\Users\javie\source\repos\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.pdb
+C:\Users\javie\source\repos\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csprojAssemblyReference.cache
+C:\Users\javie\source\repos\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\javie\source\repos\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.dll
+C:\Users\javie\source\repos\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.pdb
+C:\Users\Alfredo\Downloads\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.dll
+C:\Users\Alfredo\Downloads\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.pdb
+C:\Users\Alfredo\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csprojAssemblyReference.cache
+C:\Users\Alfredo\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\Alfredo\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.dll
+C:\Users\Alfredo\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.pdb
+C:\Users\ESTUDIANTES\Downloads\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.dll
+C:\Users\ESTUDIANTES\Downloads\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.pdb
+C:\Users\ESTUDIANTES\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+C:\Users\ESTUDIANTES\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+C:\Users\ESTUDIANTES\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.dll
+C:\Users\ESTUDIANTES\Downloads\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.dll
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.dll
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.pdb
+D:\UPC 4 semestre\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.dll
+D:\UPC 4 semestre\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.pdb
+D:\UPC 4 semestre\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+D:\UPC 4 semestre\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+D:\UPC 4 semestre\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.dll
+D:\UPC 4 semestre\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.pdb
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.dll
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\Entidad\bin\Debug\Entidad.pdb
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.dll
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\Entidad\obj\Debug\Entidad.pdb
+D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\bin\Debug\Entidad.dll
+D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\bin\Debug\Entidad.pdb
+D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.dll
+D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.pdb

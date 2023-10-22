@@ -1,0 +1,79 @@
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.AssemblyReference.cache
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.SuggestedBindingRedirects.cache
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmPrincipal.resources
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmEstablecimento.resources
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Entidad.dll
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Logica.dll
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Datos.dll
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Entidad.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Logica.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Datos.pdb
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+D:\UNICESAR-2023\P3\GRUPO-02\Parcial_Programacion_3\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmConsultaGeneral.resources
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Entidad.dll
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Logica.dll
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Datos.dll
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Entidad.pdb
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Logica.pdb
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Datos.pdb
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.AssemblyReference.cache
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmConsultaGeneral.resources
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmEstablecimento.resources
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmPrincipal.resources
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmEliminar.resources
+D:\UPC 4 semestre\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.FrmModificar.resources
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.AssemblyReference.cache
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.Form1.resources
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.INVENTARIO.resources
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Entidad.dll
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Logica.dll
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Datos.dll
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Entidad.pdb
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Logica.pdb
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\bin\Debug\Datos.pdb
+D:\UPC 4 semestre\PROYECTO\Parcial_Programacion_3\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\Entidad.dll
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\Logica.dll
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\Datos.dll
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\Entidad.pdb
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\Logica.pdb
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\bin\Debug\Datos.pdb
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.AssemblyReference.cache
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.AGREGAR.resources
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.Form1.resources
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.INVENTARIO.resources
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.ADMINISTRAR.resources
