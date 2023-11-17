@@ -40,3 +40,9 @@ D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.csproj.AssemblyRef
 D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
 D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.dll
 D:\UPC 4 semestre\PROYECTO\ValChain\Entidad\obj\Debug\Entidad.pdb
+D:\ValchainClon\ValuableChains\Entidad\obj\Debug\Entidad.csproj.AssemblyReference.cache
+D:\ValchainClon\ValuableChains\Entidad\obj\Debug\Entidad.csproj.CoreCompileInputs.cache
+D:\ValchainClon\ValuableChains\Entidad\obj\Debug\Entidad.dll
+D:\ValchainClon\ValuableChains\Entidad\obj\Debug\Entidad.pdb
+D:\ValchainClon\ValuableChains\Entidad\bin\Debug\Entidad.dll
+D:\ValchainClon\ValuableChains\Entidad\bin\Debug\Entidad.pdb

@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AGREGAR.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="AGREGAR.Designer.cs">
-      <DependentUpon>AGREGAR.cs</DependentUpon>
-    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,9 +70,6 @@
     <EmbeddedResource Include="ADMINISTRAR.resx">
       <DependentUpon>ADMINISTRAR.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AGREGAR.resx">
-      <DependentUpon>AGREGAR.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -93,6 +84,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -120,6 +112,36 @@
       <Project>{27b06726-1770-429c-be23-8da6f3917614}</Project>
       <Name>Logica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lado-del-camion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lado-del-camion %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lado-del-camion1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito-de-compra-anadir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\comprobacion-del-carrito-de-la-compra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\controlar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alt-de-inventario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar-dolar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\carrito-menos.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

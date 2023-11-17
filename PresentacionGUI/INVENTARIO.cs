@@ -31,21 +31,16 @@ namespace PresentacionGUI
         {
             if (textBox1.Text == "123")
             {
-                button1.Enabled = true;
-                button2.Enabled = true;
+                groupBox2.Visible = true;
             }
             else
             {
                 MessageBox.Show("CONTRASEÑA INCORRECTA");
-                button1.Enabled = false;
-                button2.Enabled = false;
+                groupBox2.Visible = false;
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            AbrirForm(new AGREGAR());
-        }
+        
 
         void AbrirForm(Form form)
         {
@@ -56,7 +51,7 @@ namespace PresentacionGUI
         {
             AbrirForm(new ADMINISTRAR());
         }
-
+        
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -65,6 +60,12 @@ namespace PresentacionGUI
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            groupBox1.Visible = true;
+            button1.Visible = false;
         }
     }
 }

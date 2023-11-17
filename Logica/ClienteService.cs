@@ -90,5 +90,11 @@ namespace Logica
             }
             return lista;
         }
+        ProductoRepository repo = new ProductoRepository();
+        public List<Establecimiento> ObtenerTodos()
+        {
+            var msg = repo.CargarRegistros();
+            return msg;
+        }
     }
 }

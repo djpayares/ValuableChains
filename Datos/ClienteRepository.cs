@@ -10,7 +10,7 @@ namespace Datos
 {
     public class ClienteRepository
     {
-        string filePath = "CLIENTES.txt";
+        string filePath = "CLIENTES2.0.txt";
 
         public string GuardarRegistros(Cliente cliente)
         {
@@ -54,7 +54,9 @@ namespace Datos
 
             producto.Id = (datos[0]);
             producto.Name = (datos[1]);
-            producto.Total = double.Parse(datos[2]);
+            producto.Telefono = (datos[2]);
+            producto.Direccion = (datos[3]);
+            producto.Total = double.Parse(datos[4]);
             
             return producto;
 

@@ -13,6 +13,7 @@ namespace PresentacionGUI
 {
     public partial class ADMINISTRAR : Form
     {
+        
         public ADMINISTRAR()
         {
             InitializeComponent();
@@ -22,6 +23,7 @@ namespace PresentacionGUI
         {
             if (textBox1.Text == "123")
             {
+                textBox2.Visible = true;
                 dataGridView1.Visible = true;
                 CargarEstablecimientos2();
             }
@@ -31,16 +33,21 @@ namespace PresentacionGUI
                 
             }
         }
-
+        private void CargarEstablecimientosFiltrado(string filtro)
+        {
+            dataGridView1.DataSource = servicio.ConsultarFiltrado(filtro);
+        }
         private void CargarEstablecimientos2()
         {
             var lista = servicio.ConsultarTodos();
 
             foreach (var item in lista)
             {
-                dataGridView1.Rows.Add(item.Id,item.Name,item.Total
+                dataGridView1.Rows.Add(item.Id,item.Name,item.Telefono,item.Direccion,item.Total
                     );
             }
         }
+
+       
     }
 }

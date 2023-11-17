@@ -77,3 +77,42 @@ D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.cs
 D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.exe
 D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
 D:\UPC 4 semestre\PROYECTO\ValChain\PresentacionGUI\obj\Debug\PresentacionGUI.ADMINISTRAR.resources
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Datos.dll
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Entidad.dll
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Logica.dll
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Datos.pdb
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Entidad.pdb
+D:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Logica.pdb
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.AssemblyReference.cache
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.ADMINISTRAR.resources
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.Form1.resources
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.INVENTARIO.resources
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+D:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.pdb
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\PresentacionGUI.exe.config
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\PresentacionGUI.exe
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\PresentacionGUI.pdb
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Datos.dll
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Entidad.dll
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Logica.dll
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Datos.pdb
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Entidad.pdb
+E:\ValchainClon\ValuableChains\PresentacionGUI\bin\Debug\Logica.pdb
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.AssemblyReference.cache
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.ADMINISTRAR.resources
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.AGREGAR.resources
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.Form1.resources
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.INVENTARIO.resources
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.Properties.Resources.resources
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.GenerateResource.cache
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CoreCompileInputs.cache
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.csproj.CopyComplete
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.exe
+E:\ValchainClon\ValuableChains\PresentacionGUI\obj\Debug\PresentacionGUI.pdb

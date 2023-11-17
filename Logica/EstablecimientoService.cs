@@ -19,6 +19,43 @@ namespace Logica
             establecimientoList = productoRepository.CargarRegistros();
 
         }
+        public string EliminarRegistro(int idAEliminar)
+        {
+            try
+            {
+                var productoAEliminar = establecimientoList.FirstOrDefault(p => p.Diamante == idAEliminar);
+
+                if (productoAEliminar != null)
+                {
+                    establecimientoList.Remove(productoAEliminar);
+                    productoRepository.Guardar(establecimientoList);
+                    return "Registro eliminado con éxito.";
+                }
+                else
+                {
+                    return "No se encontró un registro con el ID proporcionado.";
+                }
+            }
+            catch (IOException)
+            {
+                return "Ocurrió un error al intentar eliminar el registro.";
+            }
+        }
+        public Establecimiento BuscarPotId(int id)
+        {
+            foreach (var item in establecimientoList)
+            {
+                if (id == item.Diamante)
+                {
+                    return item;
+                }
+            }
+            return null;
+        }
+        public List<Establecimiento> ConsultarTodos()
+        {
+            return establecimientoList;
+        }
 
         public String GuardarRegistros(Establecimiento establecimiento)
         {
@@ -48,10 +85,7 @@ namespace Logica
             return establecimientoList;
         }
         
-        public List<Establecimiento> ConsultarTodos()
-        {
-            return establecimientoList;
-        }
+        
         
     }
 }

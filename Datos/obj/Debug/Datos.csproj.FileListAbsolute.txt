@@ -61,3 +61,12 @@ D:\UPC 4 semestre\PROYECTO\ValChain\Datos\obj\Debug\Datos.csproj.CoreCompileInpu
 D:\UPC 4 semestre\PROYECTO\ValChain\Datos\obj\Debug\Datos.csproj.CopyComplete
 D:\UPC 4 semestre\PROYECTO\ValChain\Datos\obj\Debug\Datos.dll
 D:\UPC 4 semestre\PROYECTO\ValChain\Datos\obj\Debug\Datos.pdb
+D:\ValchainClon\ValuableChains\Datos\bin\Debug\Datos.dll
+D:\ValchainClon\ValuableChains\Datos\bin\Debug\Datos.pdb
+D:\ValchainClon\ValuableChains\Datos\bin\Debug\Entidad.dll
+D:\ValchainClon\ValuableChains\Datos\bin\Debug\Entidad.pdb
+D:\ValchainClon\ValuableChains\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+D:\ValchainClon\ValuableChains\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+D:\ValchainClon\ValuableChains\Datos\obj\Debug\Datos.csproj.CopyComplete
+D:\ValchainClon\ValuableChains\Datos\obj\Debug\Datos.dll
+D:\ValchainClon\ValuableChains\Datos\obj\Debug\Datos.pdb

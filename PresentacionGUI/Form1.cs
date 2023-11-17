@@ -21,8 +21,11 @@ namespace PresentacionGUI
         }
         double total = 0;
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
+        {          
+            pictureBox7.Visible = true;
+            pictureBox8.Visible = false;
             groupBox1.Visible = true;
+            pictureBox5.Visible = false;
             if (comboBox1.Text == "Diamante")
             {
                 FALSEAR();
@@ -158,19 +161,32 @@ namespace PresentacionGUI
         {
             form.ShowDialog();
         }
+        void CerrarForm(Form form) 
+        { 
+            form.Close();
+        
+        }
         private void button1_Click(object sender, EventArgs e)
         {
+            INICIO();
             AbrirForm(new INVENTARIO());
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            double precio = Convert.ToDouble(textBox1.Text);
-            total = total + precio;
-            textBox2.Text = Convert.ToString(total);
-            tabla();          
-            comboBox2.Text = " ";
-            textBox1.Text = " ";
+            if(comboBox2.Text == "") 
+            {
+                MessageBox.Show("No has seleccionado ningun articulo", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                double precio = Convert.ToDouble(textBox1.Text);
+                total = total + precio;
+                textBox2.Text = Convert.ToString(total);
+                tabla();
+                comboBox2.Text = " ";
+                textBox1.Text = " ";               
+            }
         }
         void Guardar(Cliente cliente)
         {
@@ -186,12 +202,126 @@ namespace PresentacionGUI
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if ((textBox3.Text != "")||(textBox4.Text != ""))
+            if (textBox2.Text == "")
             {
-                Guardar(new Cliente(textBox4.Text, textBox3.Text, double.Parse(textBox2.Text) )) ;
+                MessageBox.Show("No has añadido nada al carrito", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else 
+            { 
+                if ((textBox3.Text != "") || (textBox4.Text != ""))
+                {
 
+                    Guardar(new Cliente(textBox4.Text, textBox3.Text, textBox5.Text,textBox6.Text, double.Parse(textBox2.Text)));
+                    groupBox2.Visible = false;
+                    textBox4.Clear();
+                    textBox3.Clear();
+                    textBox2.Clear();
+
+                }
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "")
+            {
+                MessageBox.Show("No has añadido nada al carrito", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            }
+            else
+            {
+                groupBox2.Visible = true;
             }
             
         }
+
+        private void textBox4_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if((e.KeyChar >= 32 && e.KeyChar <= 47)||(e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("La cedula no puede llevar texto", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void textBox3_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 33 && e.KeyChar <= 64) || (e.KeyChar >= 91 && e.KeyChar <= 96) || (e.KeyChar >= 123 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("El nombre no puede llevar Numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void textBox5_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar >= 32 && e.KeyChar <= 47) || (e.KeyChar >= 58 && e.KeyChar <= 255))
+            {
+                MessageBox.Show("El numero no puede llevar texto", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+            }
+        }
+
+        private void comboBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            MessageBox.Show("Eliga opciones con el mouse", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            comboBox2.Text = null;
+            return;
+        }
+
+        private void comboBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            MessageBox.Show("Eliga opciones con el mouse", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            comboBox2.Text = "";
+            return;
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            groupBox4.Visible = true;
+            button5.Visible = false;
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            INICIO();
+            
+        }
+        void INICIO()
+        {
+            comboBox1.Text = "";
+            pictureBox7.Visible = false;
+            pictureBox8.Visible = true;
+            groupBox1.Visible = false;
+            pictureBox5.Visible = true;
+            groupBox4.Visible = false;
+            button5.Visible = true;
+            groupBox2.Visible = false;
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (dataGridView1.CurrentRow == null)
+            {
+                MessageBox.Show("No hay articulos en el carrito", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                comboBox2.Text = "";
+                return;
+            }
+            else
+            {
+                int rowIndex = dataGridView1.SelectedCells[0].RowIndex;
+                // Obtén el valor de la celda en la tercera columna
+                object cellValue = dataGridView1.Rows[rowIndex].Cells[2].Value;
+
+                textBox7.Text = cellValue.ToString();
+                total = total - Convert.ToDouble(textBox7.Text);
+                dataGridView1.Rows.Remove(dataGridView1.CurrentRow);
+                textBox2.Text = Convert.ToString(total);
+            }
+        }
+
+
     }
 }

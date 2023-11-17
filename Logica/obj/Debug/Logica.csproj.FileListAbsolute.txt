@@ -75,3 +75,14 @@ D:\UPC 4 semestre\PROYECTO\ValChain\Logica\obj\Debug\Logica.csproj.CoreCompileIn
 D:\UPC 4 semestre\PROYECTO\ValChain\Logica\obj\Debug\Logica.csproj.CopyComplete
 D:\UPC 4 semestre\PROYECTO\ValChain\Logica\obj\Debug\Logica.dll
 D:\UPC 4 semestre\PROYECTO\ValChain\Logica\obj\Debug\Logica.pdb
+D:\ValchainClon\ValuableChains\Logica\bin\Debug\Logica.dll
+D:\ValchainClon\ValuableChains\Logica\bin\Debug\Logica.pdb
+D:\ValchainClon\ValuableChains\Logica\bin\Debug\Datos.dll
+D:\ValchainClon\ValuableChains\Logica\bin\Debug\Entidad.dll
+D:\ValchainClon\ValuableChains\Logica\bin\Debug\Datos.pdb
+D:\ValchainClon\ValuableChains\Logica\bin\Debug\Entidad.pdb
+D:\ValchainClon\ValuableChains\Logica\obj\Debug\Logica.csproj.AssemblyReference.cache
+D:\ValchainClon\ValuableChains\Logica\obj\Debug\Logica.csproj.CoreCompileInputs.cache
+D:\ValchainClon\ValuableChains\Logica\obj\Debug\Logica.csproj.CopyComplete
+D:\ValchainClon\ValuableChains\Logica\obj\Debug\Logica.dll
+D:\ValchainClon\ValuableChains\Logica\obj\Debug\Logica.pdb

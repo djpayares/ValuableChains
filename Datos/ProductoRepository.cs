@@ -49,6 +49,7 @@ namespace Datos
                 return null;
             }
         }
+        
         private Establecimiento Map(string line)
         {
             var producto = new Establecimiento();
