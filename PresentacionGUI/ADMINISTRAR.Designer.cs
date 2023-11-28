@@ -45,8 +45,8 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.label3 = new System.Windows.Forms.Label();
+            this.dataGridView3 = new System.Windows.Forms.DataGridView();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -228,6 +228,15 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Visible = false;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 5);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(206, 31);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "DETALLES DE LA COMPRA";
+            // 
             // dataGridView3
             // 
             this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
@@ -238,15 +247,6 @@
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.Size = new System.Drawing.Size(424, 561);
             this.dataGridView3.TabIndex = 0;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 5);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(206, 31);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "DETALLES DE LA COMPRA";
             // 
             // ADMINISTRAR
             // 

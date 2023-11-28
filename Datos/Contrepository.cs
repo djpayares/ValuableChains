@@ -54,7 +54,7 @@ namespace Datos
 
             producto.ID = (datos[0]);
             producto.Joya = (datos[1]);
-            producto.Quilates = double.Parse(datos[2]);
+            producto.Quilates = datos[2];
             producto.Valor = double.Parse(datos[3]);
 
             return producto;

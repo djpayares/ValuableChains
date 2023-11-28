@@ -12,12 +12,12 @@ namespace Entidad
         public Cont() { }
         public string ID { get; set; }
         public string Joya { get; set; }
-        public double Quilates { get; set; }
+        public string Quilates { get; set; }
         public double Valor { get; set; }
 
 
 
-        public Cont(string id, string joya, double quilates, double valor)
+        public Cont(string id, string joya, string quilates, double valor)
         {
             this.ID = id;
             this.Joya = joya; 

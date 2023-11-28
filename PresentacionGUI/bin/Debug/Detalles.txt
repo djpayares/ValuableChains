@@ -6,3 +6,9 @@
 1065573151;Esmeralda;0,25;30450;
 1000000000;Diamante;0,25;50000;
 1000000000;Esmeralda;0,25;30450;
+1010101010;Esmeralda;1 quilates;30450;
+1010101010;Rubi;1 quilates;10000;
+100100100;Diamante;1 quilates;50000;
+100100100;Diamante;0.25 quilates;12500;
+100100100;Zafiro;1 quilates;6000;
+100100100;Zafiro;0.5 quilates;4600;

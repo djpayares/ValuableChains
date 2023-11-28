@@ -260,7 +260,7 @@ namespace PresentacionGUI
                         {
                             // Obtener los valores de las celdas en las columnas deseadas
                             string Joya = Convert.ToString(fila.Cells[0].Value);
-                            double Quilates = 0.25;
+                            string Quilates = Convert.ToString((fila.Cells[1].Value));
                             double Precio = Convert.ToDouble(fila.Cells[2].Value);
 
                             Guardar2(new Cont(ID, Joya, Quilates, Precio));

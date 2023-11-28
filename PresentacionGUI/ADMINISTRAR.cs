@@ -50,12 +50,14 @@ namespace PresentacionGUI
         private void cargargrillapersonas2()
         {
             dataGridView3.DataSource = servicio3.ObtenerTodos();
-            dataGridView3.Columns[2].Visible = false;
+            dataGridView3.Columns[2].Visible = true;
+            dataGridView3.Columns[3].DefaultCellStyle.Format = "#,#";
         }
         private void cargarGrillaPersonas()
         {
             dataGridView2.DataSource = servicio2.ObtenerTodos();
-            
+            dataGridView2.Columns[4].DefaultCellStyle.Format = "#,#";
+
         }
         private void CargarEstablecimientos2()
         {
@@ -169,5 +171,7 @@ namespace PresentacionGUI
                 cargarGrillaPersonas();
             }
         }
+
+        
     }
 }
