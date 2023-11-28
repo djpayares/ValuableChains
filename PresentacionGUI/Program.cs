@@ -12,7 +12,9 @@ namespace PresentacionGUI
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        public static INVENTARIO inventario;
         [STAThread]
+        
         static void Main()
         {
             Application.EnableVisualStyles();

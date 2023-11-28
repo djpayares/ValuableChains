@@ -11,81 +11,37 @@ namespace Logica
 {
     public class EstablecimientoService
     {
-        private ProductoRepository productoRepository = null;
-        private List<Establecimiento> establecimientoList = null;
-        public EstablecimientoService()
+        ProductoRepository repo = new ProductoRepository();
+        public string Actualizar(Establecimiento producto)
         {
-            productoRepository = new ProductoRepository();
-            establecimientoList = productoRepository.CargarRegistros();
-
-        }
-        public string EliminarRegistro(int idAEliminar)
-        {
-            try
-            {
-                var productoAEliminar = establecimientoList.FirstOrDefault(p => p.Diamante == idAEliminar);
-
-                if (productoAEliminar != null)
-                {
-                    establecimientoList.Remove(productoAEliminar);
-                    productoRepository.Guardar(establecimientoList);
-                    return "Registro eliminado con éxito.";
-                }
-                else
-                {
-                    return "No se encontró un registro con el ID proporcionado.";
-                }
-            }
-            catch (IOException)
-            {
-                return "Ocurrió un error al intentar eliminar el registro.";
-            }
-        }
-        public Establecimiento BuscarPotId(int id)
-        {
-            foreach (var item in establecimientoList)
-            {
-                if (id == item.Diamante)
-                {
-                    return item;
-                }
-            }
-            return null;
-        }
-        public List<Establecimiento> ConsultarTodos()
-        {
-            return establecimientoList;
+            return repo.EditarPersona(producto);
         }
 
-        public String GuardarRegistros(Establecimiento establecimiento)
+        public string Eliminar(string Idproducto)
         {
-            if (establecimiento.Diamante == 0 )
-            { 
-                establecimiento.Diamante = 0;               
-            }
-            if (establecimiento.Rubi == 0)
-            {
-                establecimiento.Rubi = 0;
-            }
-            if (establecimiento.Zafiro == 0)
-            {
-                establecimiento.Zafiro = 0;
-            }
-            if (establecimiento.Esmeralda == 0)
-            {
-                establecimiento.Esmeralda = 0;
-            }
+            var msg = repo.EliminarPersona(Idproducto);
+            return msg;
+        }
 
-            var message = (productoRepository.GuardarRegistros(establecimiento));
-                establecimientoList = productoRepository.CargarRegistros();
-                return message;
-        }
-        public List<Establecimiento> CargarRegistros()
+        public string Insertar(Establecimiento producto)
         {
-            return establecimientoList;
+            var msg = repo.InsertarPersona(producto);
+            return msg;
         }
-        
-        
-        
+
+        public List<Establecimiento> ObtenerTodos()
+        {
+            var msg = repo.ObtenerTodos();
+            return msg;
+        }
+
+        public string DescontarProducto(Establecimiento producto, string tipoProducto, int cantidadLLevar)
+        {
+            
+            var msg = repo.DescontarProducto(producto, tipoProducto, cantidadLLevar);
+            return msg;
+        }
+
+
     }
 }

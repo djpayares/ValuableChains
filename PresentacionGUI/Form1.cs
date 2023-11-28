@@ -1,6 +1,7 @@
 ﻿using Entidad;
 using Logica;
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,19 +10,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Net.WebRequestMethods;
 
 namespace PresentacionGUI
 {
     public partial class Form1 : Form
     {
         ClienteService servicio = new ClienteService();
+        Contservice servicio3 = new Contservice();
+        Establecimiento producto = new Establecimiento();
+        Cont contador = new Cont();
+        Logica.ClienteServiceBD clienteservicio=new ClienteServiceBD();
+        EstablecimientoService establecimientoservicio =new EstablecimientoService();
         public Form1()
         {
             InitializeComponent();
         }
         double total = 0;
+
+
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {          
+        {
+            
+           
             pictureBox7.Visible = true;
             pictureBox8.Visible = false;
             groupBox1.Visible = true;
@@ -59,6 +70,8 @@ namespace PresentacionGUI
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
+            
+            button2.Enabled = true;
             double preciodiamante = 500;
             double preciorubi = 100;
             double preciozafiro = 200;
@@ -174,27 +187,55 @@ namespace PresentacionGUI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(comboBox2.Text == "") 
+            if((comboBox2.Text == "")||(comboBox2.Text == null)) 
             {
                 MessageBox.Show("No has seleccionado ningun articulo", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
             else
             {
-                double precio = Convert.ToDouble(textBox1.Text);
-                total = total + precio;
-                textBox2.Text = Convert.ToString(total);
-                tabla();
-                comboBox2.Text = " ";
-                textBox1.Text = " ";               
+                               
+                    double precio = Convert.ToDouble(textBox1.Text);
+                    total = total + precio;
+                    textBox2.Text = Convert.ToString(total);
+                    tabla();
+                   
+                    
+                    if (comboBox1.Text == "Diamante")
+                    {               
+                        establecimientoservicio.DescontarProducto(producto, "Diamante", 1) ;
+
+                    }else if(comboBox1.Text == "Rubi")
+                    {
+                        establecimientoservicio.DescontarProducto(producto, "Rubi", 1);
+                    }
+                    else if(comboBox1.Text == "Zafiro")
+                    {
+                        establecimientoservicio.DescontarProducto(producto, "Zafiro", 1);
+                    }
+                    else if(comboBox1.Text == "Esmeralda")
+                    {
+                        establecimientoservicio.DescontarProducto(producto, "Esmeralda", 1);
+                    }
+                    
+                    comboBox2.Text = " ";
+                    textBox1.Text = " ";
+
             }
         }
         void Guardar(Cliente cliente)
         {
-
-            var msg = servicio.GuardarRegistros(cliente);
+            var msg2 = clienteservicio.Insertar(cliente); 
+            var msg = servicio.GuardarRegistros(cliente);          
+            
             MessageBox.Show(msg);
 
         }
+        void Guardar2(Cont cont)
+        {
+            var msg = servicio3.GuardarRegistros(cont);
+        }
+        
+        
         public void tabla()
         {
             dataGridView1.Rows.Add(comboBox1.Text, comboBox2.Text, textBox1.Text);
@@ -210,8 +251,29 @@ namespace PresentacionGUI
             { 
                 if ((textBox3.Text != "") || (textBox4.Text != ""))
                 {
+                    //aca
+                    string ID = textBox4.Text;
+                    foreach (DataGridViewRow fila in dataGridView1.Rows)
+                    {
+                        // Verificar si la fila no es nueva y no está siendo eliminada
+                        if (!fila.IsNewRow && fila.Visible)
+                        {
+                            // Obtener los valores de las celdas en las columnas deseadas
+                            string Joya = Convert.ToString(fila.Cells[0].Value);
+                            double Quilates = 0.25;
+                            double Precio = Convert.ToDouble(fila.Cells[2].Value);
+
+                            Guardar2(new Cont(ID, Joya, Quilates, Precio));
+
+                        }
+                    }
+
+                    //hasta aca
 
                     Guardar(new Cliente(textBox4.Text, textBox3.Text, textBox5.Text,textBox6.Text, double.Parse(textBox2.Text)));
+
+                    
+
                     groupBox2.Visible = false;
                     textBox4.Clear();
                     textBox3.Clear();
@@ -220,10 +282,10 @@ namespace PresentacionGUI
                 }
             }
         }
-
+        
         private void button4_Click(object sender, EventArgs e)
         {
-            if (textBox2.Text == "")
+            if ((textBox2.Text == "")||(textBox2.Text == "0"))
             {
                 MessageBox.Show("No has añadido nada al carrito", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
@@ -283,7 +345,7 @@ namespace PresentacionGUI
             groupBox4.Visible = true;
             button5.Visible = false;
         }
-
+        
         private void pictureBox7_Click(object sender, EventArgs e)
         {
             INICIO();
@@ -314,14 +376,27 @@ namespace PresentacionGUI
                 int rowIndex = dataGridView1.SelectedCells[0].RowIndex;
                 // Obtén el valor de la celda en la tercera columna
                 object cellValue = dataGridView1.Rows[rowIndex].Cells[2].Value;
-
+                if (cellValue != null) 
+                {
                 textBox7.Text = cellValue.ToString();
                 total = total - Convert.ToDouble(textBox7.Text);
                 dataGridView1.Rows.Remove(dataGridView1.CurrentRow);
                 textBox2.Text = Convert.ToString(total);
+                }
+                else
+                {
+                   MessageBox.Show("Seleccione un articulo de su carrito", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                }
             }
+
+
+            button2.Enabled = false;
         }
 
-
+        private void button7_Click(object sender, EventArgs e)
+        {
+            INICIO();
+            AbrirForm(new ADMINISTRAR());
+        }
     }
 }

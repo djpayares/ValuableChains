@@ -113,6 +113,16 @@ namespace PresentacionGUI.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap contenedor_de_basura {
+            get {
+                object obj = ResourceManager.GetObject("contenedor-de-basura", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap controlar {
             get {
                 object obj = ResourceManager.GetObject("controlar", resourceCulture);
@@ -156,6 +166,37 @@ namespace PresentacionGUI.Properties {
         internal static System.Drawing.Bitmap lista {
             get {
                 object obj = ResourceManager.GetObject("lista", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_diamond_logo_template_vector_icon_illustration_jewelry_gem_banking_vector_png_image_38414350 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-diamond-logo-template-vector-icon-illustration-jewelry-gem-banking-vector" +
+                        "-png-image_38414350", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap val {
+            get {
+                object obj = ResourceManager.GetObject("val", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap val2 {
+            get {
+                object obj = ResourceManager.GetObject("val2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

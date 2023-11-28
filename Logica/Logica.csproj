@@ -43,7 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ClienteService.cs" />
+    <Compile Include="ClienteServiceBD.cs" />
+    <Compile Include="Contservice.cs" />
     <Compile Include="EstablecimientoService.cs" />
+    <Compile Include="ICrud.cs" />
+    <Compile Include="ICrudP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

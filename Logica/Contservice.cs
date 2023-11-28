@@ -9,22 +9,21 @@ using System.Threading.Tasks;
 
 namespace Logica
 {
-    public class ClienteService
+    public class Contservice
     {
-
-        private ClienteRepository clienteRepository = null;
-        private List<Cliente> clienteList = null;
-        public ClienteService()
+        private Contrepository clienteRepository = null;
+        private List<Cont> clienteList = null;
+        public Contservice()
         {
-            clienteRepository = new ClienteRepository();
+            clienteRepository = new Contrepository();
             clienteList = clienteRepository.CargarRegistros();
 
         }
 
-        public String GuardarRegistros(Cliente cliente)
+        public String GuardarRegistros(Cont cliente)
         {
-            if (cliente.Id == null 
-                || cliente.Total == 0)
+            if (cliente.ID == null
+                || cliente.Valor == 0)
             {
                 return $"Campos nulos";
             }
@@ -32,7 +31,7 @@ namespace Logica
             clienteList = clienteRepository.CargarRegistros();
             return message;
         }
-        public List<Cliente> CargarRegistros()
+        public List<Cont> CargarRegistros()
         {
             return clienteList;
         }
@@ -40,7 +39,7 @@ namespace Logica
         {
             try
             {
-                var productoAEliminar = clienteList.FirstOrDefault(p => p.Id == idAEliminar);
+                var productoAEliminar = clienteList.FirstOrDefault(p => p.ID == idAEliminar);
 
                 if (productoAEliminar != null)
                 {
@@ -59,42 +58,43 @@ namespace Logica
             }
         }
 
-        public Cliente BuscarPotId(string id)
+        public Cont BuscarPotId(string id)
         {
             foreach (var item in clienteList)
             {
-                if (id == item.Id)
+                if (id == item.ID)
                 {
                     return item;
                 }
             }
             return null;
         }
-        public List<Cliente> ConsultarTodos()
+        public List<Cont> ConsultarTodos()
         {
             return clienteList;
         }
-        public List<Cliente> ConsultarFiltrado(string filtro)
+        public List<Cont> ConsultarFiltrado(string filtro)
         {
             if (filtro == "")
             {
                 return clienteList;
             }
-            List<Cliente> lista = new List<Cliente>();
+            List<Cont> lista = new List<Cont>();
             foreach (var item in clienteList)
             {
-                if (item.Name.Contains(filtro) || item.Id.StartsWith(filtro))
+                if (item.Joya.Contains(filtro) || item.ID.StartsWith(filtro))
                 {
                     lista.Add(item);
                 }
             }
             return lista;
         }
-        ClienteRepository repo = new ClienteRepository();
-        public List<Cliente> ObtenerTodos()
+        Contrepository repo = new Contrepository();
+        public List<Cont> ObtenerTodos()
         {
             var msg = repo.CargarRegistros();
             return msg;
         }
+
     }
 }

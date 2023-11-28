@@ -143,5 +143,17 @@
   <ItemGroup>
     <None Include="Resources\carrito-menos.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-diamond-logo-template-vector-icon-illustration-jewelry-gem-banking-vector-png-image_38414350.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contenedor-de-basura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\val.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\val2.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
